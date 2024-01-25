@@ -4,11 +4,11 @@
 # jabber.close()
 
 # Reading line based on condition
-# jabber = open("sample.txt",'r')
-# for line in jabber:
-#     if "jabberwock" in line.lower():
-#         print(line, end='')
-# jabber.close()
+jabber = open("sample.txt",'r')
+for line in jabber:
+    if "jabberwock" in line.lower():
+        print(line, end='')
+jabber.close()
 
 # No need to close file
 # with open("sample.txt", 'r') as jabber:
